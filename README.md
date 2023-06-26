@@ -24,11 +24,11 @@ Mac :
 	```
 	Windows :
 	```
-	-
+	keytool -list -v -keystore "\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
 	```
 	Linux :
 	```
-	-
+	keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
 	```
 5. Config `assetlinks.json`
 	The hosted file should look similar to this:
